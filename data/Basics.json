@@ -43,7 +43,7 @@
   },
   {
     "questionId": "B004",
-    "question": "Which of these is NOT a valid signal connection method in Godot?",
+    "question": "Which of these is NOT a valid signal connection method in Godot 4?",
     "answers": [
       "Using the Node tab in the editor",
       "Using the connect() function in code",
@@ -51,7 +51,7 @@
       "Using the signals panel in the Inspector"
     ],
     "correct": "Using the @onready annotation",
-    "explanation": "The @onready annotation is used for variable initialization, not for connecting signals. The other options are valid ways to connect signals in Godot.",
+    "explanation": "The @onready annotation is used for variable initialization, not for connecting signals. In Godot 4, signals are typically connected using the signal_name.connect() method or through the editor.",
     "category": "Signals and Connections",
     "difficulty": "Medium"
   },
@@ -93,7 +93,7 @@
       "To clean up resources"
     ],
     "correct": "To update game logic every frame",
-    "explanation": "The _process(delta) function is called every frame and is used for frame-by-frame game logic updates.",
+    "explanation": "The _process(delta) function is called every frame and is used for frame-by-frame game logic updates. In Godot 4, you can also use _physics_process(delta) for physics-related updates.",
     "category": "Scripting with GDScript",
     "difficulty": "Easy"
   },
@@ -211,7 +211,7 @@
   },
   {
     "questionId": "B016",
-    "question": "Which of these is NOT a valid child of a Node2D?",
+    "question": "Which of these is NOT a valid child of a Node2D in Godot 4?",
     "answers": [
       "Sprite2D",
       "Camera2D",
@@ -219,7 +219,7 @@
       "AnimatedSprite2D"
     ],
     "correct": "MeshInstance3D",
-    "explanation": "MeshInstance3D is a 3D node and cannot be a direct child of Node2D. The other options are valid 2D nodes.",
+    "explanation": "MeshInstance3D is a 3D node and cannot be a direct child of Node2D in Godot 4. The other options are valid 2D nodes.",
     "category": "2D and 3D Basics",
     "difficulty": "Hard"
   },
@@ -267,15 +267,15 @@
   },
   {
     "questionId": "B020",
-    "question": "Which of these is NOT a valid 2D physics body in Godot?",
+    "question": "Which of these is NOT a valid 2D physics body in Godot 4?",
     "answers": [
       "StaticBody2D",
       "RigidBody2D",
-      "KinematicBody2D",
+      "CharacterBody2D",
       "DynamicBody2D"
     ],
     "correct": "DynamicBody2D",
-    "explanation": "DynamicBody2D is not a valid physics body in Godot. The correct options are StaticBody2D, RigidBody2D, and CharacterBody2D (which replaced KinematicBody2D in Godot 4).",
+    "explanation": "DynamicBody2D is not a valid physics body in Godot 4. The correct options are StaticBody2D, RigidBody2D, and CharacterBody2D (which replaced KinematicBody2D in Godot 4).",
     "category": "2D and 3D Basics",
     "difficulty": "Medium"
   },
@@ -491,7 +491,7 @@
   },
   {
     "questionId": "B036",
-    "question": "Which of these is NOT a valid 2D collision shape in Godot?",
+    "question": "Which of these is NOT a valid 2D collision shape in Godot 4?",
     "answers": [
       "CollisionShape2D",
       "CollisionPolygon2D",
@@ -499,7 +499,7 @@
       "CollisionRectangle2D"
     ],
     "correct": "CollisionCircle2D",
-    "explanation": "CollisionCircle2D is not a valid collision shape in Godot. Circular collisions are typically created using CollisionShape2D with a CircleShape2D resource.",
+    "explanation": "CollisionCircle2D is not a valid collision shape in Godot 4. Circular collisions are typically created using CollisionShape2D with a CircleShape2D resource.",
     "category": "2D and 3D Basics",
     "difficulty": "Medium"
   },
@@ -617,15 +617,15 @@
   },
   {
     "questionId": "B045",
-    "question": "What is the purpose of the 'yield' keyword in GDScript?",
+    "question": "What has replaced the 'yield' keyword in Godot 4 for coroutines?",
     "answers": [
-      "To pause a function's execution",
-      "To generate random numbers",
-      "To create new instances",
-      "To handle exceptions"
+      "await",
+      "yield",
+      "coroutine",
+      "sync"
     ],
-    "correct": "To pause a function's execution",
-    "explanation": "The 'yield' keyword in GDScript is used to pause a function's execution and resume it later, often used for coroutines.",
+    "correct": "await",
+    "explanation": "In Godot 4, the 'await' keyword has replaced 'yield' for creating coroutines and pausing function execution.",
     "category": "Scripting with GDScript",
     "difficulty": "Hard"
   },
@@ -779,7 +779,7 @@
       "AreaLight2D"
     ],
     "correct": "AreaLight2D",
-    "explanation": "AreaLight2D is not a valid 2D light node in Godot 4. The valid 2D light nodes are PointLight2D, DirectionalLight2D, and Light2D (which can be configured as a spotlight).",
+    "explanation": "AreaLight2D is not a valid 2D light node in Godot 4. The valid 2D light nodes are PointLight2D, DirectionalLight2D, and Light2D (which can be configured as a spotlight). For area lights, Godot uses LightmapGI in 3D, but there's no direct 2D equivalent.",
     "category": "2D and 3D Basics",
     "difficulty": "Medium"
   },
@@ -939,17 +939,17 @@
   },
   {
     "questionId": "B068",
-    "question": "Which of these is NOT a valid way to instance a scene in GDScript?",
+    "question": "What is the purpose of the 'var' keyword in GDScript?",
     "answers": [
-      "var scene = load(\"res://MyScene.tscn\").instantiate()",
-      "var scene = preload(\"res://MyScene.tscn\").instantiate()",
-      "var scene = GDScript.new(\"res://MyScene.tscn\")",
-      "var scene = ResourceLoader.load(\"res://MyScene.tscn\").instantiate()"
+      "To declare variables",
+      "To create constants",
+      "To define functions",
+      "To import modules"
     ],
-    "correct": "var scene = GDScript.new(\"res://MyScene.tscn\")",
-    "explanation": "GDScript.new() is not a valid way to instance a scene. The other options are correct ways to create scene instances in Godot.",
+    "correct": "To declare variables",
+    "explanation": "In GDScript, the 'var' keyword is used to declare variables. It's followed by the variable name and optionally a type hint and/or initial value.",
     "category": "Scripting with GDScript",
-    "difficulty": "Hard"
+    "difficulty": "Easy"
   },
   {
     "questionId": "B069",
@@ -995,7 +995,7 @@
   },
   {
     "questionId": "B072",
-    "question": "Which signal is emitted when a button is pressed and then released?",
+    "question": "Which signal is emitted when a Button node is pressed and then released?",
     "answers": [
       "pressed",
       "button_up",
@@ -1003,7 +1003,7 @@
       "clicked"
     ],
     "correct": "pressed",
-    "explanation": "The 'pressed' signal is emitted when a button is pressed and then released in Godot.",
+    "explanation": "The 'pressed' signal is emitted when a Button node is pressed and then released in Godot.",
     "category": "Signals and Connections",
     "difficulty": "Easy"
   },
