@@ -7,3 +7,7 @@ https://creativecommons.org/licenses/by/4.0/deed.en
 
 Royalty Free Music by Paolo Argento from Pixabay
 https://pixabay.com/music/corporate-quiz-countdown-194417/
+
+Godot Image Credits
+https://en.m.wikipedia.org/wiki/File:Godot_logo.svg
+Author: Andrea Calabró
