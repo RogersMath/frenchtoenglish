@@ -1,0 +1,1122 @@
+[
+  {
+    "questionId": "B001",
+    "question": "What is the base class for all objects in Godot?",
+    "answers": [
+      "Object",
+      "Node",
+      "Control",
+      "Resource"
+    ],
+    "correct": "Object",
+    "explanation": "Object is the base class for all objects in Godot. All other classes, including Node, inherit from it.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B002",
+    "question": "Which node type is used to create a 2D game world?",
+    "answers": [
+      "Node2D",
+      "Spatial",
+      "Control",
+      "WorldEnvironment"
+    ],
+    "correct": "Node2D",
+    "explanation": "Node2D is the base node for 2D games, providing a 2D transform and other 2D-specific functionality.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B003",
+    "question": "What keyword is used to define a function in GDScript?",
+    "answers": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correct": "func",
+    "explanation": "In GDScript, functions are defined using the 'func' keyword, followed by the function name and parameters.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B004",
+    "question": "Which of these is NOT a valid signal connection method in Godot?",
+    "answers": [
+      "Using the Node tab in the editor",
+      "Using the connect() function in code",
+      "Using the @onready annotation",
+      "Using the signals panel in the Inspector"
+    ],
+    "correct": "Using the @onready annotation",
+    "explanation": "The @onready annotation is used for variable initialization, not for connecting signals. The other options are valid ways to connect signals in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B005",
+    "question": "What is the default scene file extension in Godot 4?",
+    "answers": [
+      ".tscn",
+      ".scn",
+      ".gd",
+      ".res"
+    ],
+    "correct": ".tscn",
+    "explanation": "The default scene file extension in Godot 4 is .tscn, which stands for 'text scene'.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B006",
+    "question": "Which of these is a correct way to instance a scene in GDScript?",
+    "answers": [
+      "var instance = preload(\"res://MyScene.tscn\").instantiate()",
+      "var instance = load(\"res://MyScene.tscn\").new()",
+      "var instance = Scene.load(\"res://MyScene.tscn\")",
+      "var instance = instantiate(\"res://MyScene.tscn\")"
+    ],
+    "correct": "var instance = preload(\"res://MyScene.tscn\").instantiate()",
+    "explanation": "To instance a scene, you first preload or load it, then call instantiate() on the loaded PackedScene resource.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B007",
+    "question": "What is the purpose of the _process(delta) function?",
+    "answers": [
+      "To update game logic every frame",
+      "To handle input events",
+      "To initialize the node",
+      "To clean up resources"
+    ],
+    "correct": "To update game logic every frame",
+    "explanation": "The _process(delta) function is called every frame and is used for frame-by-frame game logic updates.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B008",
+    "question": "Which node is used as the root of a 3D scene?",
+    "answers": [
+      "Node3D",
+      "Spatial",
+      "World3D",
+      "Scene3D"
+    ],
+    "correct": "Node3D",
+    "explanation": "Node3D (previously called Spatial in Godot 3.x) is the base node for 3D scenes, providing 3D transform capabilities.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B009",
+    "question": "What is the correct syntax for connecting a signal in GDScript?",
+    "answers": [
+      "node.connect(\"signal_name\", callable(self, \"_on_signal_emitted\"))",
+      "node.signal_name.connect(self._on_signal_emitted)",
+      "connect(node, \"signal_name\", self, \"_on_signal_emitted\")",
+      "node.signal_name += self._on_signal_emitted"
+    ],
+    "correct": "node.signal_name.connect(self._on_signal_emitted)",
+    "explanation": "In Godot 4, the preferred way to connect signals in GDScript is using the signal_name.connect() method.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B010",
+    "question": "Which folder is typically used for storing project assets in Godot?",
+    "answers": [
+      "res://",
+      "user://",
+      "assets://",
+      "project://"
+    ],
+    "correct": "res://",
+    "explanation": "The res:// prefix refers to the project's resource path, where game assets are typically stored.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B011",
+    "question": "What is the purpose of the .tres file extension in Godot?",
+    "answers": [
+      "Text Resource",
+      "Tree Scene",
+      "Texture Resource",
+      "Transition Resource"
+    ],
+    "correct": "Text Resource",
+    "explanation": ".tres files are Text Resources, used to store various types of resources in a human-readable text format.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B012",
+    "question": "Which of these is NOT a built-in 2D node in Godot?",
+    "answers": [
+      "Sprite2D",
+      "Area2D",
+      "RigidBody2D",
+      "Mesh2D"
+    ],
+    "correct": "Mesh2D",
+    "explanation": "Mesh2D is not a built-in 2D node in Godot. Sprite2D, Area2D, and RigidBody2D are all valid 2D nodes.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B013",
+    "question": "What does the 'extends' keyword do in GDScript?",
+    "answers": [
+      "Inherits from a parent class",
+      "Expands a compressed file",
+      "Extends the script's execution time",
+      "Adds new properties to an object"
+    ],
+    "correct": "Inherits from a parent class",
+    "explanation": "In GDScript, 'extends' is used to specify inheritance, allowing a script to inherit properties and methods from a parent class.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B014",
+    "question": "Which of these is a valid way to emit a signal in GDScript?",
+    "answers": [
+      "emit_signal(\"my_signal\")",
+      "signal.emit(\"my_signal\")",
+      "my_signal.emit()",
+      "self.emit(\"my_signal\")"
+    ],
+    "correct": "my_signal.emit()",
+    "explanation": "In Godot 4, signals are emitted using the signal_name.emit() syntax.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B015",
+    "question": "What is the purpose of the project.godot file?",
+    "answers": [
+      "To store project settings",
+      "To define the main scene",
+      "To list all project scripts",
+      "To configure build options"
+    ],
+    "correct": "To store project settings",
+    "explanation": "The project.godot file is the main configuration file for a Godot project, storing various project settings and configurations.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B016",
+    "question": "Which of these is NOT a valid child of a Node2D?",
+    "answers": [
+      "Sprite2D",
+      "Camera2D",
+      "MeshInstance3D",
+      "AnimatedSprite2D"
+    ],
+    "correct": "MeshInstance3D",
+    "explanation": "MeshInstance3D is a 3D node and cannot be a direct child of Node2D. The other options are valid 2D nodes.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B017",
+    "question": "What is the purpose of the _ready() function in Godot scripts?",
+    "answers": [
+      "To initialize the node when it enters the scene tree",
+      "To update the node every frame",
+      "To handle input events",
+      "To clean up resources when the node is removed"
+    ],
+    "correct": "To initialize the node when it enters the scene tree",
+    "explanation": "The _ready() function is called when a node is added to the scene tree and is typically used for initialization tasks.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B018",
+    "question": "Which node type is used to create a clickable button in Godot's UI system?",
+    "answers": [
+      "Button",
+      "TouchButton",
+      "ClickableArea",
+      "UIButton"
+    ],
+    "correct": "Button",
+    "explanation": "The Button node is used to create clickable buttons in Godot's UI system.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B019",
+    "question": "What is the correct way to access a child node named 'Sprite' in GDScript?",
+    "answers": [
+      "$Sprite",
+      "get_node(\"Sprite\")",
+      "self.Sprite",
+      "node(\"Sprite\")"
+    ],
+    "correct": "$Sprite",
+    "explanation": "In Godot 4, the $ operator is a shorthand for get_node() and is the preferred way to access child nodes.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B020",
+    "question": "Which of these is NOT a valid 2D physics body in Godot?",
+    "answers": [
+      "StaticBody2D",
+      "RigidBody2D",
+      "KinematicBody2D",
+      "DynamicBody2D"
+    ],
+    "correct": "DynamicBody2D",
+    "explanation": "DynamicBody2D is not a valid physics body in Godot. The correct options are StaticBody2D, RigidBody2D, and CharacterBody2D (which replaced KinematicBody2D in Godot 4).",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B021",
+    "question": "What is the purpose of the @export annotation in GDScript?",
+    "answers": [
+      "To make a variable visible in the Inspector",
+      "To export a variable for use in other scripts",
+      "To mark a function as a coroutine",
+      "To declare a variable as constant"
+    ],
+    "correct": "To make a variable visible in the Inspector",
+    "explanation": "The @export annotation in GDScript is used to make variables visible and editable in the Godot Inspector.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B022",
+    "question": "Which signal is emitted when a Button node is pressed?",
+    "answers": [
+      "pressed",
+      "button_down",
+      "clicked",
+      "activated"
+    ],
+    "correct": "pressed",
+    "explanation": "The 'pressed' signal is emitted when a Button node is pressed in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B023",
+    "question": "What is the purpose of the .import folder in a Godot project?",
+    "answers": [
+      "To store processed versions of project assets",
+      "To keep track of imported plugins",
+      "To manage version control",
+      "To store temporary project files"
+    ],
+    "correct": "To store processed versions of project assets",
+    "explanation": "The .import folder contains processed versions of project assets, optimized for use in the Godot engine.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B024",
+    "question": "Which node is used as the root of a 2D user interface in Godot?",
+    "answers": [
+      "Control",
+      "CanvasLayer",
+      "Node2D",
+      "UI"
+    ],
+    "correct": "Control",
+    "explanation": "The Control node is the base node for all 2D GUI-related nodes in Godot.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B025",
+    "question": "What does the 'onready' keyword do in GDScript?",
+    "answers": [
+      "Initializes a variable when the node is ready",
+      "Marks a function to run asynchronously",
+      "Declares a constant variable",
+      "Creates a signal connection"
+    ],
+    "correct": "Initializes a variable when the node is ready",
+    "explanation": "The 'onready' keyword in GDScript is used to initialize variables just before the _ready() function is called.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B026",
+    "question": "Which of these is NOT a valid way to create an instance of a scene in GDScript?",
+    "answers": [
+      "var scene = load(\"res://MyScene.tscn\").instance()",
+      "var scene = preload(\"res://MyScene.tscn\").instantiate()",
+      "var scene = GDScript.new(\"res://MyScene.tscn\")",
+      "var scene = ResourceLoader.load(\"res://MyScene.tscn\").instantiate()"
+    ],
+    "correct": "var scene = GDScript.new(\"res://MyScene.tscn\")",
+    "explanation": "GDScript.new() is not a valid way to instantiate a scene. The other options are correct ways to create scene instances in Godot.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B027",
+    "question": "What is the purpose of the project.godot file?",
+    "answers": [
+      "To store project settings and configurations",
+      "To define the main scene of the game",
+      "To list all scenes in the project",
+      "To manage build settings for different platforms"
+    ],
+    "correct": "To store project settings and configurations",
+    "explanation": "The project.godot file is the main configuration file for a Godot project, storing various project settings and configurations.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B028",
+    "question": "Which of these is NOT a valid 3D node in Godot?",
+    "answers": [
+      "Camera3D",
+      "MeshInstance3D",
+      "Spatial3D",
+      "RigidBody3D"
+    ],
+    "correct": "Spatial3D",
+    "explanation": "Spatial3D is not a valid 3D node in Godot. In Godot 4, the equivalent node is called Node3D.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B029",
+    "question": "What is the purpose of the 'tool' keyword at the beginning of a GDScript file?",
+    "answers": [
+      "To make the script run in the editor",
+      "To optimize script performance",
+      "To enable debugging features",
+      "To mark the script as a plugin"
+    ],
+    "correct": "To make the script run in the editor",
+    "explanation": "The 'tool' keyword allows a script to run in the Godot editor, enabling custom editor functionality.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B030",
+    "question": "Which signal is emitted when a node enters the scene tree?",
+    "answers": [
+      "tree_entered",
+      "ready",
+      "node_added",
+      "scene_loaded"
+    ],
+    "correct": "tree_entered",
+    "explanation": "The 'tree_entered' signal is emitted when a node enters the scene tree in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B031",
+    "question": "What file extension is used for Godot resource files?",
+    "answers": [
+      ".tres",
+      ".res",
+      ".gres",
+      ".godot"
+    ],
+    "correct": ".tres",
+    "explanation": "Godot uses the .tres extension for text-based resource files.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B032",
+    "question": "Which node is used to play audio in Godot?",
+    "answers": [
+      "AudioStreamPlayer",
+      "SoundEmitter",
+      "AudioSource",
+      "MusicPlayer"
+    ],
+    "correct": "AudioStreamPlayer",
+    "explanation": "The AudioStreamPlayer node is used to play audio in Godot projects.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B033",
+    "question": "What is the purpose of the SceneTree in Godot?",
+    "answers": [
+      "To manage the hierarchy of nodes",
+      "To render 3D trees in a scene",
+      "To organize project files",
+      "To handle audio playback"
+    ],
+    "correct": "To manage the hierarchy of nodes",
+    "explanation": "The SceneTree in Godot manages the hierarchy of nodes, forming the structure of scenes in a game.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B034",
+    "question": "Which keyword is used to define a constant in GDScript?",
+    "answers": [
+      "const",
+      "final",
+      "static",
+      "constant"
+    ],
+    "correct": "const",
+    "explanation": "In GDScript, the 'const' keyword is used to define constants.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B035",
+    "question": "What is the correct way to get input in Godot 4?",
+    "answers": [
+      "Input.is_action_pressed(\"action_name\")",
+      "get_input(\"action_name\")",
+      "is_key_pressed(\"action_name\")",
+      "input.get_action(\"action_name\")"
+    ],
+    "correct": "Input.is_action_pressed(\"action_name\")",
+    "explanation": "In Godot 4, Input.is_action_pressed() is used to check if an input action is being pressed.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B036",
+    "question": "Which of these is NOT a valid 2D collision shape in Godot?",
+    "answers": [
+      "CollisionShape2D",
+      "CollisionPolygon2D",
+      "CollisionCircle2D",
+      "CollisionRectangle2D"
+    ],
+    "correct": "CollisionCircle2D",
+    "explanation": "CollisionCircle2D is not a valid collision shape in Godot. Circular collisions are typically created using CollisionShape2D with a CircleShape2D resource.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B037",
+    "question": "What is the purpose of the 'group' feature in Godot?",
+    "answers": [
+      "To organize and manage collections of nodes",
+      "To group textures for efficient rendering",
+      "To create multiplayer lobbies",
+      "To bundle scripts together"
+    ],
+    "correct": "To organize and manage collections of nodes",
+    "explanation": "Groups in Godot allow you to organize and manage collections of nodes, making it easy to perform operations on multiple nodes at once.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B038",
+    "question": "Which signal is emitted when a node is about to be removed from the scene tree?",
+    "answers": [
+      "tree_exiting",
+      "node_removed",
+      "about_to_delete",
+      "queue_free"
+    ],
+    "correct": "tree_exiting",
+    "explanation": "The 'tree_exiting' signal is emitted when a node is about to be removed from the scene tree in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B039",
+    "question": "What is the purpose of the 'addons' folder in a Godot project?",
+    "answers": [
+      "To store plugin files",
+      "To keep additional assets",
+      "To manage project backups",
+      "To hold temporary files"
+    ],
+    "correct": "To store plugin files",
+    "explanation": "The 'addons' folder in a Godot project is used to store plugin files, allowing for easy management and organization of project plugins.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B040",
+    "question": "Which node is used to create a heads-up display (HUD) that stays in a fixed position on the screen?",
+    "answers": [
+      "CanvasLayer",
+      "Control",
+      "Node2D",
+      "Viewport"
+    ],
+    "correct": "CanvasLayer",
+    "explanation": "The CanvasLayer node is used to create UI elements or HUDs that stay in a fixed position on the screen, regardless of camera movement.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B041",
+    "question": "What is the purpose of the 'match' statement in GDScript?",
+    "answers": [
+      "To perform pattern matching",
+      "To compare strings",
+      "To find regex matches",
+      "To connect signals"
+    ],
+    "correct": "To perform pattern matching",
+    "explanation": "The 'match' statement in GDScript is used for pattern matching, similar to switch statements in other languages but more powerful.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B042",
+    "question": "Which of these is NOT a valid way to create a timer in Godot?",
+    "answers": [
+      "Using the Timer node",
+      "Using get_tree().create_timer()",
+      "Using OS.get_ticks_msec()",
+      "Using the wait() function"
+    ],
+    "correct": "Using the wait() function",
+    "explanation": "Godot doesn't have a built-in wait() function. Timers are typically created using Timer nodes or get_tree().create_timer().",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B043",
+    "question": "What is the purpose of the 'project.godot' file?",
+    "answers": [
+      "To store project settings",
+      "To define the main scene",
+      "To list all project assets",
+      "To manage version control"
+    ],
+    "correct": "To store project settings",
+    "explanation": "The 'project.godot' file is used to store project settings and configurations for a Godot project.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B044",
+    "question": "Which of these is NOT a valid 3D physics body in Godot 4?",
+    "answers": [
+      "StaticBody3D",
+      "RigidBody3D",
+      "KinematicBody3D",
+      "CharacterBody3D"
+    ],
+    "correct": "KinematicBody3D",
+    "explanation": "In Godot 4, KinematicBody3D has been replaced by CharacterBody3D. The other options are valid 3D physics bodies.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B045",
+    "question": "What is the purpose of the 'yield' keyword in GDScript?",
+    "answers": [
+      "To pause a function's execution",
+      "To generate random numbers",
+      "To create new instances",
+      "To handle exceptions"
+    ],
+    "correct": "To pause a function's execution",
+    "explanation": "The 'yield' keyword in GDScript is used to pause a function's execution and resume it later, often used for coroutines.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B046",
+    "question": "Which signal is emitted when a node's name changes?",
+    "answers": [
+      "renamed",
+      "name_changed",
+      "update_name",
+      "on_rename"
+    ],
+    "correct": "renamed",
+    "explanation": "The 'renamed' signal is emitted when a node's name is changed in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B047",
+    "question": "What is the purpose of the 'export' folder in a Godot project?",
+    "answers": [
+      "To store compiled game builds",
+      "To keep exportable assets",
+      "To manage export templates",
+      "To hold export configurations"
+    ],
+    "correct": "To store compiled game builds",
+    "explanation": "The 'export' folder is typically used to store compiled game builds when exporting a Godot project for different platforms.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B048",
+    "question": "Which node is used to create a 2D particle system in Godot?",
+    "answers": [
+      "GPUParticles2D",
+      "Particles2D",
+      "ParticleEmitter2D",
+      "ParticleSystem2D"
+    ],
+    "correct": "GPUParticles2D",
+    "explanation": "In Godot 4, GPUParticles2D is used to create 2D particle systems, replacing the older CPUParticles2D node.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B049",
+    "question": "What is the purpose of the 'Owner' property in Godot's node system?",
+    "answers": [
+      "To determine which scene owns the node",
+      "To set the node's parent",
+      "To assign copyright information",
+      "To manage node permissions"
+    ],
+    "correct": "To determine which scene owns the node",
+    "explanation": "The 'Owner' property in Godot's node system is used to determine which scene owns the node, which is important for instancing and scene management.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B050",
+    "question": "Which keyword is used to define a class in GDScript?",
+    "answers": [
+      "class",
+      "class_name",
+      "define",
+      "type"
+    ],
+    "correct": "class_name",
+    "explanation": "In GDScript, the 'class_name' keyword is used to define a named class that can be used throughout the project.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B051",
+    "question": "What is the purpose of the 'Camera2D' node in Godot?",
+    "answers": [
+      "To control the view of a 2D scene",
+      "To capture screenshots",
+      "To render 2D textures",
+      "To manage 2D lighting"
+    ],
+    "correct": "To control the view of a 2D scene",
+    "explanation": "The Camera2D node in Godot is used to control the view of a 2D scene, determining what part of the scene is visible on the screen.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B052",
+    "question": "Which of these is NOT a valid way to connect a signal in Godot 4?",
+    "answers": [
+      "Using the Node tab in the editor",
+      "Using the connect() function",
+      "Using the @onready keyword",
+      "Using the signals panel in the Inspector"
+    ],
+    "correct": "Using the @onready keyword",
+    "explanation": "The @onready keyword is not used for connecting signals. It's used for deferring variable initialization. The other options are valid ways to connect signals in Godot 4.",
+    "category": "Signals and Connections",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B053",
+    "question": "What is the purpose of the 'user://' directory in Godot?",
+    "answers": [
+      "To store user-specific data",
+      "To manage user accounts",
+      "To keep user-created assets",
+      "To handle user input"
+    ],
+    "correct": "To store user-specific data",
+    "explanation": "The 'user://' directory in Godot is used to store user-specific data, such as save files or configurations, in a location that persists between game sessions.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B054",
+    "question": "Which node is used to create a scrollable area in Godot's UI system?",
+    "answers": [
+      "ScrollContainer",
+      "ScrollArea",
+      "ScrollView",
+      "ScrollPanel"
+    ],
+    "correct": "ScrollContainer",
+    "explanation": "The ScrollContainer node in Godot is used to create a scrollable area in the UI system.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B055",
+    "question": "What is the purpose of the 'is' keyword in GDScript?",
+    "answers": [
+      "To check if an object is an instance of a class",
+      "To create a new instance",
+      "To compare equality",
+      "To check if a variable is defined"
+    ],
+    "correct": "To check if an object is an instance of a class",
+    "explanation": "The 'is' keyword in GDScript is used to check if an object is an instance of a particular class or one of its subclasses.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B056",
+    "question": "Which of these is NOT a valid 2D light node in Godot 4?",
+    "answers": [
+      "PointLight2D",
+      "DirectionalLight2D",
+      "SpotLight2D",
+      "AreaLight2D"
+    ],
+    "correct": "AreaLight2D",
+    "explanation": "AreaLight2D is not a valid 2D light node in Godot 4. The valid 2D light nodes are PointLight2D, DirectionalLight2D, and Light2D (which can be configured as a spotlight).",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B057",
+    "question": "What is the purpose of the 'custom_multiplayer' property in Godot?",
+    "answers": [
+      "To use a custom multiplayer API implementation",
+      "To set custom multiplayer game rules",
+      "To define player counts in multiplayer",
+      "To customize multiplayer UI"
+    ],
+    "correct": "To use a custom multiplayer API implementation",
+    "explanation": "The 'custom_multiplayer' property in Godot allows you to use a custom multiplayer API implementation instead of the default one.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B058",
+    "question": "Which signal is emitted when a node is added to the scene tree?",
+    "answers": [
+      "tree_entered",
+      "node_added",
+      "scene_entered",
+      "ready"
+    ],
+    "correct": "tree_entered",
+    "explanation": "The 'tree_entered' signal is emitted when a node is added to the scene tree in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B059",
+    "question": "What is the purpose of the '.gdignore' file in Godot?",
+    "answers": [
+      "To exclude files or folders from the project",
+      "To ignore Git version control",
+      "To disable certain Godot features",
+      "To mark files as read-only"
+    ],
+    "correct": "To exclude files or folders from the project",
+    "explanation": "The '.gdignore' file in Godot is used to exclude files or folders from being imported or recognized by the Godot project.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B060",
+    "question": "Which node is used to create a tilemap in Godot 4?",
+    "answers": [
+      "TileMap",
+      "GridMap",
+      "TileSet",
+      "MapNode"
+    ],
+    "correct": "TileMap",
+    "explanation": "The TileMap node is used to create and manage tilemaps in Godot 4.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B061",
+    "question": "What is the purpose of the 'tool' keyword in GDScript?",
+    "answers": [
+      "To make the script run in the editor",
+      "To optimize script performance",
+      "To define tool functions",
+      "To enable script debugging"
+    ],
+    "correct": "To make the script run in the editor",
+    "explanation": "The 'tool' keyword in GDScript allows the script to run in the Godot editor, enabling the creation of custom editor tools and gizmos.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B062",
+    "question": "Which method is called when a node is about to be removed from the scene tree?",
+    "answers": [
+      "_exit_tree()",
+      "_on_remove()",
+      "_cleanup()",
+      "_disconnect()"
+    ],
+    "correct": "_exit_tree()",
+    "explanation": "The '_exit_tree()' method is called when a node is about to be removed from the scene tree in Godot.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B063",
+    "question": "What is the purpose of the 'export' keyword in GDScript?",
+    "answers": [
+      "To make variables editable in the Inspector",
+      "To export functions for use in other scripts",
+      "To define public methods",
+      "To prepare variables for saving"
+    ],
+    "correct": "To make variables editable in the Inspector",
+    "explanation": "The 'export' keyword in GDScript is used to make variables editable in the Godot Inspector, allowing for easy customization of node properties.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B064",
+    "question": "Which of these is NOT a valid resource type in Godot?",
+    "answers": [
+      "PackedScene",
+      "Texture",
+      "AudioStream",
+      "DataFile"
+    ],
+    "correct": "DataFile",
+    "explanation": "DataFile is not a valid resource type in Godot. PackedScene, Texture, and AudioStream are all valid resource types.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B065",
+    "question": "What is the purpose of the 'Area2D' node in Godot?",
+    "answers": [
+      "To detect and respond to overlapping bodies",
+      "To create 2D physics objects",
+      "To define game levels",
+      "To manage 2D animations"
+    ],
+    "correct": "To detect and respond to overlapping bodies",
+    "explanation": "The Area2D node in Godot is used to detect and respond to other 2D physics bodies entering or exiting its space.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B066",
+    "question": "Which keyword is used to create an enum in GDScript?",
+    "answers": [
+      "enum",
+      "enumerate",
+      "enum_type",
+      "enumeration"
+    ],
+    "correct": "enum",
+    "explanation": "In GDScript, the 'enum' keyword is used to create an enumeration, which is a set of named constants.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B067",
+    "question": "What is the purpose of the 'theme' resource in Godot?",
+    "answers": [
+      "To define consistent UI styles",
+      "To set the game's color palette",
+      "To manage audio themes",
+      "To create visual themes for characters"
+    ],
+    "correct": "To define consistent UI styles",
+    "explanation": "The 'theme' resource in Godot is used to define consistent styles for UI elements across the game or application.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B068",
+    "question": "Which of these is NOT a valid way to instance a scene in GDScript?",
+    "answers": [
+      "var scene = load(\"res://MyScene.tscn\").instantiate()",
+      "var scene = preload(\"res://MyScene.tscn\").instantiate()",
+      "var scene = GDScript.new(\"res://MyScene.tscn\")",
+      "var scene = ResourceLoader.load(\"res://MyScene.tscn\").instantiate()"
+    ],
+    "correct": "var scene = GDScript.new(\"res://MyScene.tscn\")",
+    "explanation": "GDScript.new() is not a valid way to instance a scene. The other options are correct ways to create scene instances in Godot.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B069",
+    "question": "What is the purpose of the 'project_settings' folder in a Godot project?",
+    "answers": [
+      "It doesn't exist in Godot projects",
+      "To store global project configurations",
+      "To keep project-specific plugins",
+      "To manage build settings"
+    ],
+    "correct": "It doesn't exist in Godot projects",
+    "explanation": "There is no 'project_settings' folder in Godot projects. Project settings are stored in the project.godot file.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B070",
+    "question": "Which node is used to create a physics-based 2D character in Godot 4?",
+    "answers": [
+      "CharacterBody2D",
+      "KinematicBody2D",
+      "RigidBody2D",
+      "PhysicsBody2D"
+    ],
+    "correct": "CharacterBody2D",
+    "explanation": "In Godot 4, CharacterBody2D is used to create physics-based 2D characters, replacing the older KinematicBody2D from Godot 3.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B071",
+    "question": "What is the purpose of the 'assert' keyword in GDScript?",
+    "answers": [
+      "To check for conditions that should never occur",
+      "To create strong variable typing",
+      "To force garbage collection",
+      "To optimize code execution"
+    ],
+    "correct": "To check for conditions that should never occur",
+    "explanation": "The 'assert' keyword in GDScript is used to check for conditions that should never occur, helping to catch logical errors in the code.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B072",
+    "question": "Which signal is emitted when a button is pressed and then released?",
+    "answers": [
+      "pressed",
+      "button_up",
+      "released",
+      "clicked"
+    ],
+    "correct": "pressed",
+    "explanation": "The 'pressed' signal is emitted when a button is pressed and then released in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B073",
+    "question": "What is the purpose of the 'export_presets.cfg' file in a Godot project?",
+    "answers": [
+      "To store export configurations for different platforms",
+      "To define preset game settings",
+      "To manage asset export rules",
+      "To configure project plugins"
+    ],
+    "correct": "To store export configurations for different platforms",
+    "explanation": "The 'export_presets.cfg' file in a Godot project stores export configurations for different platforms, allowing for easy management of export settings.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B074",
+    "question": "Which node is used to create a 2D polygon shape in Godot?",
+    "answers": [
+      "Polygon2D",
+      "PolygonShape2D",
+      "Path2D",
+      "Geometry2D"
+    ],
+    "correct": "Polygon2D",
+    "explanation": "The Polygon2D node in Godot is used to create and display 2D polygon shapes.",
+    "category": "2D and 3D Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B075",
+    "question": "What is the purpose of the 'preload' function in GDScript?",
+    "answers": [
+      "To load resources at compile-time",
+      "To preload game levels",
+      "To initialize variables before use",
+      "To cache frequently used objects"
+    ],
+    "correct": "To load resources at compile-time",
+    "explanation": "The 'preload' function in GDScript is used to load resources at compile-time, improving performance by avoiding runtime loading.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B076",
+    "question": "Which method is called when a node is added to the scene tree?",
+    "answers": [
+      "_enter_tree()",
+      "_ready()",
+      "_init()",
+      "_start()"
+    ],
+    "correct": "_enter_tree()",
+    "explanation": "The '_enter_tree()' method is called when a node is added to the scene tree in Godot, before '_ready()'.",
+    "category": "Nodes and Scenes",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "B077",
+    "question": "What is the purpose of the 'remote' keyword in GDScript?",
+    "answers": [
+      "To mark functions for remote procedure calls in networking",
+      "To access remote servers",
+      "To define remote controls for game input",
+      "To optimize code for remote execution"
+    ],
+    "correct": "To mark functions for remote procedure calls in networking",
+    "explanation": "The 'remote' keyword in GDScript is used to mark functions that can be called remotely in networked games or applications.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B078",
+    "question": "Which signal is emitted when a node's visibility changes?",
+    "answers": [
+      "visibility_changed",
+      "visible_changed",
+      "is_visible_changed",
+      "on_visibility_change"
+    ],
+    "correct": "visibility_changed",
+    "explanation": "The 'visibility_changed' signal is emitted when a node's visibility changes in Godot.",
+    "category": "Signals and Connections",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "B079",
+    "question": "What is the purpose of the '.import' files in a Godot project?",
+    "answers": [
+      "To store import configurations for assets",
+      "To manage imported plugins",
+      "To list all imported scripts",
+      "To handle asset versioning"
+    ],
+    "correct": "To store import configurations for assets",
+    "explanation": "The '.import' files in a Godot project store import configurations for assets, allowing Godot to properly process and optimize imported resources.",
+    "category": "Project Structure and Organization",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "B080",
+    "question": "Which built-in function is used to print text to the output panel in Godot?",
+    "answers": [
+      "print()",
+      "console.log()",
+      "debug()",
+      "output()"
+    ],
+    "correct": "print()",
+    "explanation": "The built-in 'print()' function is used to output text to the output panel in Godot for debugging purposes.",
+    "category": "Scripting with GDScript",
+    "difficulty": "Easy"
+  }
+]
