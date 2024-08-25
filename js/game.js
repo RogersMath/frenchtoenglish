@@ -37,7 +37,7 @@ let sessionBest = {
     incorrect: 0,
     percentage: 0
 };
-let currentLibrary = 'Basics';
+let currentLibrary = 'Difficulty1';
 let currentQuestions = [];
 let answeredQuestions = [];
 
@@ -261,7 +261,7 @@ function toggleVolume() {
 }
 
 function getTutoring() {
-    window.open('https://www.palmbeachstate.edu/slc/', '_blank');
+    window.open('https://youtu.be/wtiFx1TRCq0?si=QVFl1ygHbzzjGvzs', '_blank');
 }
 
 // Event listeners
