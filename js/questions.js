@@ -1,5 +1,5 @@
 const allQuestions = {
-    Basics: null
+    Difficulty1: null
 };
 
 async function loadQuestionLibrary(libraryName) {
