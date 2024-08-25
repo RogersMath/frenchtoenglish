@@ -1,0 +1,422 @@
+[
+  {
+    "questionId": "FE001",
+    "question": "Quelle est la traduction de 'Bonjour' en anglais ?",
+    "answers": [
+      "Hello",
+      "Goodbye",
+      "Good night",
+      "Thank you"
+    ],
+    "correct": "Hello",
+    "explanation": "'Bonjour' is a greeting in French that translates to 'Hello' in English.",
+    "category": "Greetings",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE002",
+    "question": "Comment dit-on 'chat' en anglais ?",
+    "answers": [
+      "Dog",
+      "Cat",
+      "Bird",
+      "Fish"
+    ],
+    "correct": "Cat",
+    "explanation": "'Chat' in French translates to 'Cat' in English.",
+    "category": "Animals",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE003",
+    "question": "Quelle est la traduction de 'Je m'appelle' en anglais ?",
+    "answers": [
+      "How are you?",
+      "What's your name?",
+      "My name is",
+      "Nice to meet you"
+    ],
+    "correct": "My name is",
+    "explanation": "'Je m'appelle' is used to introduce oneself in French. It translates to 'My name is' in English.",
+    "category": "Introductions",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE004",
+    "question": "Comment dit-on 'un' en anglais ?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct": "One",
+    "explanation": "'Un' is the French word for the number 'One' in English.",
+    "category": "Numbers",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE005",
+    "question": "Quelle est la traduction de 'Merci' en anglais ?",
+    "answers": [
+      "Please",
+      "Sorry",
+      "Thank you",
+      "Excuse me"
+    ],
+    "correct": "Thank you",
+    "explanation": "'Merci' is used to express gratitude in French. It translates to 'Thank you' in English.",
+    "category": "Politeness",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE006",
+    "question": "Comment dit-on 'rouge' en anglais ?",
+    "answers": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correct": "Red",
+    "explanation": "'Rouge' is the French word for the color 'Red' in English.",
+    "category": "Colors",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE007",
+    "question": "Quelle est la traduction de 'Je ne comprends pas' en anglais ?",
+    "answers": [
+      "I understand",
+      "I don't understand",
+      "Do you understand?",
+      "Can you repeat?"
+    ],
+    "correct": "I don't understand",
+    "explanation": "'Je ne comprends pas' is used to express lack of understanding in French. It translates to 'I don't understand' in English.",
+    "category": "Common Phrases",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE008",
+    "question": "Comment dit-on 'lundi' en anglais ?",
+    "answers": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "correct": "Monday",
+    "explanation": "'Lundi' is the French word for 'Monday', the first day of the week in English.",
+    "category": "Days of the Week",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE009",
+    "question": "Quelle est la traduction de 'eau' en anglais ?",
+    "answers": [
+      "Fire",
+      "Earth",
+      "Air",
+      "Water"
+    ],
+    "correct": "Water",
+    "explanation": "'Eau' is the French word for 'Water' in English.",
+    "category": "Basic Vocabulary",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE010",
+    "question": "Comment dit-on 'oui' en anglais ?",
+    "answers": [
+      "No",
+      "Maybe",
+      "Yes",
+      "OK"
+    ],
+    "correct": "Yes",
+    "explanation": "'Oui' is the French word for affirmation, which translates to 'Yes' in English.",
+    "category": "Basic Vocabulary",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE011",
+    "question": "Quelle est la traduction de 'pomme' en anglais ?",
+    "answers": [
+      "Banana",
+      "Orange",
+      "Apple",
+      "Pear"
+    ],
+    "correct": "Apple",
+    "explanation": "'Pomme' is the French word for 'Apple' in English.",
+    "category": "Food",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE012",
+    "question": "Comment dit-on 'maison' en anglais ?",
+    "answers": [
+      "Car",
+      "House",
+      "School",
+      "Park"
+    ],
+    "correct": "House",
+    "explanation": "'Maison' is the French word for 'House' in English.",
+    "category": "Places",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE013",
+    "question": "Quelle est la traduction de 'chien' en anglais ?",
+    "answers": [
+      "Cat",
+      "Bird",
+      "Fish",
+      "Dog"
+    ],
+    "correct": "Dog",
+    "explanation": "'Chien' is the French word for 'Dog' in English.",
+    "category": "Animals",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE014",
+    "question": "Comment dit-on 'livre' en anglais ?",
+    "answers": [
+      "Pen",
+      "Notebook",
+      "Book",
+      "Magazine"
+    ],
+    "correct": "Book",
+    "explanation": "'Livre' is the French word for 'Book' in English.",
+    "category": "Objects",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE015",
+    "question": "Quelle est la traduction de 'au revoir' en anglais ?",
+    "answers": [
+      "Hello",
+      "Good morning",
+      "Goodbye",
+      "Good night"
+    ],
+    "correct": "Goodbye",
+    "explanation": "'Au revoir' is a farewell greeting in French that translates to 'Goodbye' in English.",
+    "category": "Greetings",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE016",
+    "question": "Comment dit-on 'petit' en anglais ?",
+    "answers": [
+      "Big",
+      "Small",
+      "Tall",
+      "Wide"
+    ],
+    "correct": "Small",
+    "explanation": "'Petit' is the French word for 'Small' in English.",
+    "category": "Adjectives",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE017",
+    "question": "Quelle est la traduction de 'famille' en anglais ?",
+    "answers": [
+      "Friend",
+      "Family",
+      "Neighbor",
+      "Colleague"
+    ],
+    "correct": "Family",
+    "explanation": "'Famille' is the French word for 'Family' in English.",
+    "category": "Relationships",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE018",
+    "question": "Comment dit-on 'noir' en anglais ?",
+    "answers": [
+      "White",
+      "Green",
+      "Blue",
+      "Black"
+    ],
+    "correct": "Black",
+    "explanation": "'Noir' is the French word for the color 'Black' in English.",
+    "category": "Colors",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE019",
+    "question": "Quelle est la traduction de 'soleil' en anglais ?",
+    "answers": [
+      "Moon",
+      "Star",
+      "Sun",
+      "Cloud"
+    ],
+    "correct": "Sun",
+    "explanation": "'Soleil' is the French word for 'Sun' in English.",
+    "category": "Nature",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE020",
+    "question": "Comment dit-on 'porte' en anglais ?",
+    "answers": [
+      "Window",
+      "Wall",
+      "Floor",
+      "Door"
+    ],
+    "correct": "Door",
+    "explanation": "'Porte' is the French word for 'Door' in English.",
+    "category": "House",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE021",
+    "question": "Quelle est la traduction de 'frère' en anglais ?",
+    "answers": [
+      "Sister",
+      "Brother",
+      "Father",
+      "Mother"
+    ],
+    "correct": "Brother",
+    "explanation": "'Frère' is the French word for 'Brother' in English.",
+    "category": "Family",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE022",
+    "question": "Comment dit-on 'école' en anglais ?",
+    "answers": [
+      "House",
+      "Hospital",
+      "School",
+      "Park"
+    ],
+    "correct": "School",
+    "explanation": "'École' is the French word for 'School' in English.",
+    "category": "Places",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE023",
+    "question": "Quelle est la traduction de 'voiture' en anglais ?",
+    "answers": [
+      "Bicycle",
+      "Bus",
+      "Train",
+      "Car"
+    ],
+    "correct": "Car",
+    "explanation": "'Voiture' is the French word for 'Car' in English.",
+    "category": "Transportation",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE024",
+    "question": "Comment dit-on 'télévision' en anglais ?",
+    "answers": [
+      "Radio",
+      "Computer",
+      "Television",
+      "Phone"
+    ],
+    "correct": "Television",
+    "explanation": "'Télévision' is the French word for 'Television' in English.",
+    "category": "Technology",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE025",
+    "question": "Quelle est la traduction de 'chapeau' en anglais ?",
+    "answers": [
+      "Shoes",
+      "Shirt",
+      "Hat",
+      "Pants"
+    ],
+    "correct": "Hat",
+    "explanation": "'Chapeau' is the French word for 'Hat' in English.",
+    "category": "Clothing",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE026",
+    "question": "Comment dit-on 'manger' en anglais ?",
+    "answers": [
+      "Drink",
+      "Sleep",
+      "Walk",
+      "Eat"
+    ],
+    "correct": "Eat",
+    "explanation": "'Manger' is the French verb that means 'to Eat' in English.",
+    "category": "Verbs",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE027",
+    "question": "Quelle est la traduction de 'jardin' en anglais ?",
+    "answers": [
+      "Kitchen",
+      "Bedroom",
+      "Garden",
+      "Bathroom"
+    ],
+    "correct": "Garden",
+    "explanation": "'Jardin' is the French word for 'Garden' in English.",
+    "category": "Places",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE028",
+    "question": "Comment dit-on 'table' en anglais ?",
+    "answers": [
+      "Chair",
+      "Table",
+      "Bed",
+      "Sofa"
+    ],
+    "correct": "Table",
+    "explanation": "'Table' is the same word in both French and English.",
+    "category": "Furniture",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE029",
+    "question": "Quelle est la traduction de 'heureux' en anglais ?",
+    "answers": [
+      "Sad",
+      "Angry",
+      "Tired",
+      "Happy"
+    ],
+    "correct": "Happy",
+    "explanation": "'Heureux' is the French word for 'Happy' in English.",
+    "category": "Emotions",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FE030",
+    "question": "Comment dit-on 'pluie' en anglais ?",
+    "answers": [
+      "Snow",
+      "Wind",
+      "Rain",
+      "Sun"
+    ],
+    "correct": "Rain",
+    "explanation": "'Pluie' is the French word for 'Rain' in English.",
+    "category": "Weather",
+    "difficulty": "Easy"
+  }
+]
